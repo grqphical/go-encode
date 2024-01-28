@@ -1,4 +1,5 @@
 # go-encode
+[![Go Test](https://github.com/grqphical/go-encode/actions/workflows/go.yml/badge.svg)](https://github.com/grqphical/go-encode/actions/workflows/go.yml)
 
 A simple tool to encode/decode data
 
