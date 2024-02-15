@@ -9,7 +9,17 @@ Run:
 ```bash
 $ go install github.com/grqphical/go-encode
 ```
+## Supported Formats
 
+- Base64
+
+- Base32
+
+- Ascii85
+
+- Hexadecimal
+
+- Binary
 
 ## License
 

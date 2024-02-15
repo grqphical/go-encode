@@ -39,3 +39,11 @@ func TestHexEncoder(t *testing.T) {
 
 	assert.Equal(t, text, encoder.EncodeString("Hello, World!"))
 }
+
+func TestBinaryEncoder(t *testing.T) {
+	text := "01001000011001010110110001101100011011110010110000100000010101110110111101110010011011000110010000100001"
+
+	encoder := encoder.BinaryEncoder{}
+
+	assert.Equal(t, text, encoder.EncodeString("Hello, World!"))
+}

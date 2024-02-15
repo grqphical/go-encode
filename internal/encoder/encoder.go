@@ -11,6 +11,7 @@ func GetEncoders() map[string]Encoder {
 	encoders["ascii85"] = &Ascii85Encoder{}
 	encoders["hex"] = &HexEncoder{}
 	encoders["base32"] = &HexEncoder{}
+	encoders["binary"] = &BinaryEncoder{}
 
 	return encoders
 }

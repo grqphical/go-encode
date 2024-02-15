@@ -39,3 +39,11 @@ func TestHexDecoder(t *testing.T) {
 
 	assert.Equal(t, "Hello, World!", decodedData)
 }
+
+func TestBinaryDecoder(t *testing.T) {
+	decoder := decoder.BinaryDecoder{}
+
+	decodedData, _ := decoder.DecodeString("01001000011001010110110001101100011011110010110000100000010101110110111101110010011011000110010000100001")
+
+	assert.Equal(t, "Hello, World!", decodedData)
+}
